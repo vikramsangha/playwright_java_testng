@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Register User Regression Suite" thread-count="5"
+	parallel="tests" verbose="4">
+
+
+	<test name="RegisterAnalyst">
+		<classes>
+			<class name="com.test.playwright.tests.RegisterAnalyst" />
+		</classes>
+	</test>
+	
+	<test name="RegisterBA">
+		<classes>
+			<class name="com.test.playwright.tests.RegisterBA" />
+		</classes>
+	</test>
+	
+	<!-- test name="RegisterConsumer">
+		<classes>
+			<class name="com.test.playwright.tests.RegisterConsumer" />
+		</classes>
+	</test -->
+	
+
+
+</suite>
